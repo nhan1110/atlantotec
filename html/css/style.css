@@ -1,0 +1,291 @@
+/*
+Color:
+base: #797a7a
+light: #bfbfbf
+dark: #000
+primary: #022638
+secondary: #a1d0ca
+*/
+/*============================*/
+/*GLOBAL*/
+/*============================*/
+a,a:hover{color: #0000ff;}
+.text-danger{color: #ff0000;}
+img{max-width: 100%;}
+.btn{box-shadow: none; border-radius: 0; outline: 0; outline-offset: 0;}
+.btn-default{background-color: #69CC40; border-color: #69CC40; color: #fff;}
+.btn-default:hover,.btn-default:focus,.btn-default:active,.btn-default:active:hover{background-color: #69CC40; border-color: #69CC40; color: #fff;}
+.btn-primary{background-color: #ff9900; border-color: #ff9900; color: #fff;}
+.btn-primary:hover,.btn-primary:focus,.btn-primary:active,.btn-primary:active:hover{background-color: #ff9900; border-color: #ff9900; color: #fff;}
+
+
+.radio-img{text-align: center; max-width: 160px; display: inline-block;}
+.radio-img .text{display: block;}
+.radio-img img{margin-bottom: 10px;}
+.radio-img input{opacity: 0;}
+.radio-img label{position: relative; display: inline-block;}
+.radio-img .text:before{content: "\f00c"; font-family: "FontAwesome"; font-size: 30px; color: #69CC40; position: absolute; right: 10%; top: 10%; z-index: 1; display: none;}
+.radio-img input[type="radio"]:checked + .text:before {display: block;}
+
+.header-top{background-color: #69CC40; color: #fff; padding: 10px 12px 0 15px; text-align: center;}
+.header-top a{color: #fff;}
+.header-top .fa{font-size: 18px;}
+.header-top .fa.fa-mobile{font-size: 20px;}
+
+
+.site-content .tab-content {
+	background-color: #ccc;
+	padding: 20px;
+}
+.top-group{
+	font-weight: bold;
+	background-color: #8ab9ce5e;
+	padding: 10px 0;
+}
+.bottom-group{
+	font-weight: bold;
+	background-color: #f1f1f1;
+	padding: 10px 0;
+}
+.bottom-group .fa,.color-red{
+	color: red;
+}
+.group-arrow{float: right;color: #098e21;font-size: 19px;}
+.color-green{
+	color: #098e21;
+}
+@media(min-width:992px){
+	.header-top{text-align: left;}
+	.header-top .multilang{text-align: right;}
+}
+
+.site-footer{font-size: 12px; padding: 20px 0;}
+.site-footer a{color: inherit;}
+.site-footer p{margin-bottom: 0;}
+
+.portal .list-btn .btn{min-width: 168px;}
+.portal .question-title{padding: 10px 15px; background-color: #6CCC4A;}
+.portal .question-title h4{color: #fff;}
+.portal .question-title p{color: #fff;}
+
+.portal .question-content{padding: 20px;}
+.portal .list-radio-img li{width: 50%; text-align: center}
+
+.portal .list-time-label .label{display: inline-block; width: 17px; height: 17px; border: 1px solid #FD9726; border-radius: 0; position: relative;}
+.portal .list-time-label .label.label-1:before{content: "";width: 0; height: 0; position: absolute; top: 2px; left: 2px;
+	border-style: solid;
+	border-width: 4px 4px 0 0;
+	border-color: #FC3B45 transparent transparent transparent;
+}
+.portal .list-time-label .label.label-2{background-color: #FFFF71;}
+.portal .list-time-label .label.label-3{border-width: 2px;}
+@media(min-width:992px){
+	.portal .list-radio-img li{width: 20%;}
+}
+.portal .pager a{border-color: #e8e8e8; background-color: #e8e8e8; color: #ff9900; font-weight: bold;}
+.portal .pager .disable{color: #999; pointer-events: none;}
+.step-question .bx-wrapper {
+    -moz-box-shadow:none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: none;
+	background: transparent;
+	margin-bottom: 0;
+}
+.step-question .bx-wrapper .bx-viewport{
+	height: auto !important;
+}
+.color-brilliant-green{
+	color: #88da4c;
+}
+.magrin-top-45{
+	margin-top: 45px;
+}
+.magrin-bottom-45{
+	margin-bottom: 45px;
+}
+.font-size-24{
+	font-size: 44px;
+}
+
+.color-brilliant-green.font-size-24{
+	margin-right: 10px;
+}
+.step-question #questions .question {
+	max-height: 20px;
+	overflow: hidden;
+}
+.step-question #questions .question.open{
+	max-height: max-content;
+}
+.kon-link{
+	background: #88da4c;
+	width: 100%;
+	margin-bottom: 10px;
+	color: #fff;
+	text-align: center;
+}
+
+
+.radio {
+	padding-left: 20px; 
+}
+.radio label {
+    display: inline-block;
+    position: relative;
+    padding-left: 5px; }
+.radio label::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    left: 0;
+    margin-left: -20px;
+    border: 1px solid #cccccc;
+    border-radius: 50%;
+    background-color: #fff;
+    -webkit-transition: border 0.15s ease-in-out;
+    -o-transition: border 0.15s ease-in-out;
+    transition: border 0.15s ease-in-out; }
+.radio label::after {
+    display: inline-block;
+    position: absolute;
+    content: " ";
+    width: 11px;
+    height: 11px;
+    left: 3px;
+    top: 3px;
+    margin-left: -20px;
+    border-radius: 50%;
+    background-color: #555555;
+    -webkit-transform: scale(0, 0);
+    -ms-transform: scale(0, 0);
+    -o-transform: scale(0, 0);
+    transform: scale(0, 0);
+    -webkit-transition: -webkit-transform 0.1s cubic-bezier(0.8, -0.33, 0.2, 1.33);
+    -moz-transition: -moz-transform 0.1s cubic-bezier(0.8, -0.33, 0.2, 1.33);
+    -o-transition: -o-transform 0.1s cubic-bezier(0.8, -0.33, 0.2, 1.33);
+    transition: transform 0.1s cubic-bezier(0.8, -0.33, 0.2, 1.33); }
+.radio input[type="radio"] {
+
+	opacity: 0; 
+}
+.radio input[type="radio"]:focus + label::before {
+    outline: thin dotted;
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px; }
+.radio input[type="radio"]:checked + label::after {
+    -webkit-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    -o-transform: scale(1, 1);
+    transform: scale(1, 1); }
+.radio input[type="radio"]:disabled + label {
+    opacity: 0.65; }
+.radio input[type="radio"]:disabled + label::before {
+    cursor: not-allowed; }
+.radio.radio-inline {
+    margin-top: 0; }
+
+.radio-primary input[type="radio"] + label::after {
+    background-color: #428bca; }
+.radio-primary input[type="radio"]:checked + label::before {
+    border-color: #428bca; }
+.radio-primary input[type="radio"]:checked + label::after {
+    background-color: #428bca; }
+
+.radio-danger input[type="radio"] + label::after {
+    background-color: #d9534f; }
+.radio-danger input[type="radio"]:checked + label::before {
+    border-color: #d9534f; }
+.radio-danger input[type="radio"]:checked + label::after {
+    background-color: #d9534f; }
+
+.radio-info input[type="radio"] + label::after {
+    background-color: #5bc0de; }
+.radio-info input[type="radio"]:checked + label::before {
+    border-color: #5bc0de; }
+.radio-info input[type="radio"]:checked + label::after {
+    background-color: #5bc0de; }
+
+.radio-warning input[type="radio"] + label::after {
+    background-color: #f0ad4e; }
+.radio-warning input[type="radio"]:checked + label::before {
+    border-color: #f0ad4e; }
+.radio-warning input[type="radio"]:checked + label::after {
+    background-color: #f0ad4e; }
+
+.radio-success input[type="radio"] + label::after {
+    background-color: #5cb85c; }
+.radio-success input[type="radio"]:checked + label::before {
+    border-color: #5cb85c; }
+.radio-success input[type="radio"]:checked + label::after {
+	background-color: #5cb85c; }
+	
+.radio-black input[type="radio"] + label::after {
+	background-color: #000000; }
+.radio-black input[type="radio"]:checked + label::before {
+	border-color: #000000; }
+.radio-black input[type="radio"]:checked + label::after {
+	background-color: #000000; }
+.line-white{
+	height: 1px;
+	width: 100%;
+	background: #fff;
+}
+.terminbuchung-page .tab-content .tab-pane .item{
+	padding: 10px 0;
+}
+.terminbuchung-page .tab-content{
+    background-color: #f1f1f1;
+}
+.terminbuchung-page .bottom-page{
+    padding: 20px 0;
+    float:  left;
+    width: 100%;
+}
+.terminbuchung-page .tab-content{
+    border-bottom: 1px solid #000;
+    padding: 10px;
+}
+.list-items li {
+	list-style: none;
+	margin-bottom: 5px;
+}
+.list-items {
+	padding: 0;
+	margin: 0;
+}
+.terminbuchung-page select,.terminbuchung-page input[type=text]{
+	height: 30px;
+}
+.terminbuchung-page input[type=text]{
+    width: 70px;
+}
+.terminbuchung-page textarea{
+    width: 100%;
+    height: 70px;
+}
+.terminbuchung-page .checkbox{
+    margin: 0;
+}
+.dashboard-page.terminbuchung-page .checkbox label{
+    text-decoration: none;
+}
+.dashboard-page.terminbuchung-page .nav-tabs {
+    border-bottom: 1px solid #000;
+}
+.dashboard-page.terminbuchung-page .full-width{
+    width: 100%;
+}
+.terminbuchung-page .tab-content .tab-pane .radio{
+	margin: 0;
+}
+.space-15{
+    height: 10px;
+    width: 100%;
+    float: left;
+}
+.terminbuchung-page .breadcrumb{
+    margin-bottom: 0;
+}
